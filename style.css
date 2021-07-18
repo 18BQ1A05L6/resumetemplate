@@ -52,12 +52,12 @@ html{
     color: white;
     
 }
-#home::before{
+#home img{
     content:"";
     position: absolute;
     top:0;
     right:0;
-    background:url('IMG-20200219-WA0057.jpg') no-repeat center/cover;
+    
     object-fit: cover;
     height:859px;
     width:100%;
