@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Statictemplate in HTML & CSS(Resume)</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+</head>
+<body>
+<nav class="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#services">Portfolio Demo</a></li>
+        <li><a href="#contact">Contact me</a></li>
+    </ul>
+</nav> 
+
+<section id="home">
+     <div class="main">
+        <h1 class="headings">GREETINGS! <br> I AM <br>LEKHASRI</h1>
+    <button class="btn">hire me</button>
+    </div>
+</section>
+
+<section id="about">
+    <h1 class="headings">ABOUT ME</h1>
+    <div id="pic"> 
+        <img src="images/IMG-20200219-WA0057.jpg" alt="">
+        <div id="intro">
+            <h2>LEKHASRI VARIKUTI</h2>
+            <P>A web development enthusiast and aspiring individual with a B-Tech in Computer Science Engineering in search of a challenging role at a dynamic organisation that offers immense growth opportunities and to
+                implement my knowledge and skills.I am always energetic and eager to learn new skills, not only this I am self-motivated person driven by my Innovative thoughts and goals.Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well under pressure.Always highly enthusiastic about my work and tasks ahead.Summing up,I strongly believe and have hope in me that i have some exceptional strength that makes me up above all others. </P>
+        </div>
+    </div>
+</section>
+
+
+<section id="Portfolio">
+    <h1 class="headings">PORTFOLIO</h1>
+    <div class="gallery">
+        
+        <img src="images/calci.PNG" alt="">
+        <img src="images/resume.PNG" alt="">
+        <img src="images/bloodbank.PNG" alt="">
+        
+    </div>
+</section>
+
+<section id="services">
+    <h1 class="headings">PORTFOLIO DEMO</h1>
+    <div class="row">
+        <div class="box">
+            
+            <h1 class="headings">Calculator</h1>
+            <video src="videos/Calculator - Google Chrome 2021-07-17 17-33-03_1.mp4" controls></video>
+               
+        </div>
+        <div class="box">
+           
+            <h1 class="headings">Static Template</h1>
+            <video src="videos/Static website in HTML & CSS(Resume) - Google Chrome 2021-07-18 15-04-54.mp4" controls></video>
+        </div>
+        <div class="box">
+            
+            <h1 class="headings">Blood Bank </h1>
+            <video src="videos/LittleHelp.com - Google Chrome 2021-07-18 13-04-36_Trim.mp4" controls></video>
+            </div>
+
+    </div>
+</section>
+
+
+<section id="contact">
+    <h1 class="headings">CONTACT</h1>
+    <form action="" class="form">
+        <input type="text" name="name" class="input" placeholder="ENTER YOUR NAME">
+        <input type="email" name="email" class="input" placeholder="ENTER YOUR EMAIL">
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="YOUR MSG"></textarea>
+        <input type="submit" value="SEND" id="send">
+    </form>
+</section>
+
+   
+</body>
+</html>
